@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+body{
+    background-image: url('../img/emilia-home.jpg');
+    background-position:right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;   
+    margin: 0;
+    padding: 0;
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.logos{
+    display: flex;
+}
+
+li{
+    margin: 3px;
+}
+
+h3{
+    margin: 100px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.419);
+    font-family: 'raleway';
+    font-size: 50px;
+    font-weight:800;
+    width: 100%;
+    position:absolute;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
