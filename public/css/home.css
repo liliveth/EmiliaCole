@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@&display=swap');
+
 body{
     background-image: url('../img/emilia-home.jpg');
     background-position:right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;   
-    margin: 0;
-    padding: 0;
+    height: 115vh;
+    margin-left: 0px;
+    padding: 0px;
   
 }
 
@@ -20,25 +21,31 @@ a{
     display: flex;
 }
 
+.menu{
+    margin: 15px 0px;
+}
 li{
     margin: 3px;
+    font-family: "raleway";
+
 }
 
 h3{
-    margin: 100px 50px;
+    margin: 90px 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 5px;
 }
 
 h1{
     background-color: rgba(255, 255, 255, 0.419);
     font-family: 'raleway';
-    font-size: 50px;
-    font-weight:800;
+    font-size: 60px;
+    font-weight:600;
     width: 100%;
     position:absolute;
-    margin-bottom: 5px;
+    margin-top: 100px;
     margin-left: 5px;
 }
+

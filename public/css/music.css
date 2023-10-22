@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@&display=swap');
+body{
+    background-image: url('../img/emilia-music-top.jpg');
+    background-position:top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;   
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-left: 10px;
+}
+a{
+    text-decoration:none;
+}
+.menu{
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(255, 255, 255, 0.481);
+}
+li{
+    margin: 3px;
+    font-family: "raleway";
+
+}
+.iconos{
+   
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+h1{
+    margin-top: 100px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-size: 70px;
+}
+h4{
+    margin:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:20px;
+}
+h2{
+    font-family: 'raleway';
+    font-weight: 800;
+    margin-top: 100px;
+}
+img{
+    width: 800px;
+}
+
+ol li{
+    margin-top:15px;
+}
